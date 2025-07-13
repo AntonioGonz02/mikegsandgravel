@@ -1,1 +1,55 @@
-<h1>HELLO!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Dad's Sand & Gravel Business</title>
+    <!-- Link to Tailwind CSS CDN for easy styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom CSS for the Inter font and basic body styling */
+        body {
+            font-family: 'Inter', sans-serif; /* Using Inter font */
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333; /* Dark gray text */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center p-4">
+    <!-- Main container for content, centered and responsive -->
+    <div class="bg-white p-8 rounded-lg shadow-xl max-w-4xl w-full text-center">
+        <!-- Header section with business name -->
+        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+            [Your Dad's Business Name Here]
+        </h1>
+        <!-- Slogan or brief description -->
+        <p class="text-lg md:text-xl text-gray-600 mb-6">
+            Quality Sand and Gravel for All Your Project Needs
+        </p>
+        
+        <!-- Call to action button -->
+        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
+            Get a Quote Today!
+        </button>
+
+        <!-- Placeholder for future content or sections -->
+        <div class="mt-10 text-gray-500 text-sm">
+            <p>More content coming soon...</p>
+            <p>Contact information, services, and project gallery will be added here.</p>
+        </div>
+    </div>
+
+    <!-- Simple JavaScript for demonstration (optional) -->
+    <script>
+        // This script runs after the HTML is loaded.
+        // It's a good place for interactive elements.
+        console.log("Welcome to your dad's sand and gravel website!");
+
+        // Example: Add a simple click event to the button
+        document.querySelector('button').addEventListener('click', function() {
+            // In a real app, this might open a contact form or navigate to another page.
+            alert("Quote button clicked! (This is a placeholder action)");
+        });
+    </script>
+</body>
+</html>
