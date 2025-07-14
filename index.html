@@ -3,53 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mike Gonzales Sand & Gravel</title>
-    <!-- Link to Tailwind CSS CDN for easy styling -->
+    <title>Mike Gonzales Sand & Gravel - Building Pads, Driveways, Excavation, Land Clearing</title>
+    <meta name="description" content="Mike Gonzales Sand & Gravel: Owner/Operator with 30+ years experience in building pads, driveways, excavation, and land clearing in Texas. Aggie owned, family operated for superior structural stability, drainage, and foundation support.">
+    <meta name="keywords" content="sand and gravel, building pads, driveways, excavation, land clearing, foundation support, drainage solutions, structural stability, Mike Gonzales, Aggie owned, Texas A&M, owner operator, construction materials, site preparation, College Station, Bryan, Texas">
+    
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Custom CSS for the Inter font and basic body styling */
         body {
             font-family: 'Inter', sans-serif; /* Using Inter font */
-            background-color: #f0f0f0; /* Light gray background */
+            background-color: #f8f8f8; /* Very light gray background */
             color: #333; /* Dark gray text */
+        }
+        /* Smooth scroll for navigation */
+        html {
+            scroll-behavior: smooth;
         }
     </style>
 </head>
-<body class="min-h-screen flex flex-col items-center justify-center p-4">
-    <!-- Main container for content, centered and responsive -->
-    <div class="bg-white p-8 rounded-lg shadow-xl max-w-4xl w-full text-center">
-        <!-- Header section with business name -->
-        <h1 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
-            Mike Gonzales Sand & Gravel
-        </h1>
-        <!-- Slogan or brief description -->
-        <p class="text-lg md:text-xl text-gray-600 mb-6">
-            Quality Sand and Gravel for All Your Project Needs
-        </p>
-        
-        <!-- Call to action button -->
-        <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105">
-            Get a Quote Today!
-        </button>
+<body class="flex flex-col min-h-screen">
 
-        <!-- Placeholder for future content or sections -->
-        <div class="mt-10 text-gray-500 text-sm">
-            <p>More content coming soon...</p>
-            <p>Contact information, services, and project gallery will be added here.</p>
+    <!-- Header and Navigation -->
+    <header class="bg-gray-800 text-white p-4 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <a href="#hero" class="text-2xl font-bold text-stone-300 hover:text-stone-200 transition duration-300">
+                Mike Gonzales Sand & Gravel
+            </a>
+            <nav class="mt-4 md:mt-0">
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-stone-300 transition duration-300">About Us</a></li>
+                    <li><a href="#services" class="hover:text-stone-300 transition duration-300">Services</a></li>
+                    <li><a href="#projects" class="hover:text-stone-300 transition duration-300">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-stone-300 transition duration-300">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
 
-    <!-- Simple JavaScript for demonstration (optional) -->
+    <!-- Hero Section -->
+    <section id="hero" class="bg-red-900 text-white py-20 md:py-32 text-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-red-950 to-red-700 opacity-90"></div>
+        <div class="container mx-auto relative z-10 p-4">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
+                Mike Gonzales Sand & Gravel: Quality Sand & Gravel Services
+            </h1>
+            <p class="text-lg md:text-2xl mb-8 max-w-3xl mx-auto">
+                Expertise in Building Pads, Driveways, Excavation, and Land Clearing for unmatched stability and drainage.
+            </p>
+            <a href="#contact" class="bg-stone-400 hover:bg-stone-500 text-gray-900 font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                Get a Free Estimate Today!
+            </a>
+        </div>
+    </section>
+
+    <main class="flex-grow">
+        <!-- About Us Section -->
+        <section id="about" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto p-4 max-w-5xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-10">
+                    About Mike Gonzales Sand & Gravel
+                </h2>
+                <div class="flex flex-col md:flex-row items-center md:space-x-12">
+                    <div class="md:w-1/2 mb-8 md:mb-0">
+                        <!-- Placeholder for an image of Mike or the team -->
+                        <img src="https://placehold.co/600x400/e0e0e0/555555?text=Mike+Gonzales" alt="Mike Gonzales, Owner/Operator" class="rounded-lg shadow-lg w-full h-auto object-cover">
+                    </div>
+                    <div class="md:w-1/2 text-gray-700 leading-relaxed">
+                        <p class="mb-4 text-lg">
+                            At Mike Gonzales Sand & Gravel, we're more than just a business; we're a legacy of dedication and expertise. Owner/Operator <strong class="text-gray-900">Mike Gonzales has been a cornerstone in the sand and gravel industry for over 30 years</strong>, bringing unparalleled experience to every project.
+                        </p>
+                        <p class="mb-4 text-lg">
+                            Mike's extensive background covers all facets of site preparation, including <strong class="text-gray-900">building pads, driveways, excavation, and land clearing</strong>. His meticulous approach ensures the <strong class="text-900">greatest structural stability, proper drainage, and rock-solid foundation support</strong> for your residential or commercial needs.
+                        </p>
+                        <p class="text-lg">
+                            As a proud <strong class="text-gray-900">Aggie (Texas A&M University alumni) owned and operated family business</strong>, we believe in direct, personal interaction. Mike himself works closely with every client to provide <strong class="text-gray-900">tailored solutions</strong> that meet your specific project requirements and exceed expectations. When you choose us, you're choosing a partner committed to quality and integrity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto p-4 max-w-5xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-10">
+                    Our Expert Sand & Gravel Services
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Service 1: Building Pads -->
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                        <h3 class="text-xl font-semibold text-red-900 mb-3">Building Pads</h3>
+                        <p class="text-gray-700">
+                            We construct robust and level building pads, ensuring a strong, stable foundation for homes, commercial buildings, and other structures. Proper compaction and grading are our priority.
+                        </p>
+                    </div>
+                    <!-- Service 2: Driveways -->
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                        <h3 class="text-xl font-semibold text-red-900 mb-3">Driveways</h3>
+                        <p class="text-gray-700">
+                            From initial grading to final material placement, we build durable driveways that withstand heavy traffic and harsh weather, providing excellent drainage.
+                        </p>
+                    </div>
+                    <!-- Service 3: Excavation -->
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                        <h3 class="text-xl font-semibold text-red-900 mb-3">Excavation</h3>
+                        <p class="text-gray-700">
+                            Precise excavation services for trenches, foundations, land leveling, and more. Our experienced team ensures accurate and efficient earthmoving.
+                        </p>
+                    </div>
+                    <!-- Service 4: Land Clearing -->
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300">
+                        <h3 class="text-xl font-semibold text-red-900 mb-3">Land Clearing</h3>
+                        <p class="text-gray-700">
+                            Prepare your land for development with our comprehensive land clearing services, removing trees, brush, and debris to create a clean slate for your project.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects/Gallery Section -->
+        <section id="projects" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto p-4 max-w-6xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-10">
+                    Our Work: Quality You Can See
+                </h2>
+                <p class="text-center text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
+                    Browse examples of our completed projects, showcasing our commitment to structural integrity, proper drainage, and superior finish.
+                </p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1: House Pad before -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <img src="photos/IMG_7707.JPG" alt="Completed house pad for new construction, showing level grading and preparation." class="w-full h-64 object-cover">
+                        <div class="p-5">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Residential House Pad</h3>
+                            <p class="text-gray-700 text-sm">Expertly graded and compacted for a new home, ensuring a solid foundation.</p>
+                        </div>
+                    </div>
+                    <!-- Project 1.5: House Pad after -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <img src="photos/IMG_6253.JPG" alt="Completed house pad for new construction, showing level grading and preparation." class="w-full h-64 object-cover">
+                        <div class="p-5">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Residential House Pad</h3>
+                            <p class="text-gray-700 text-sm">Expertly graded and compacted for a new home, ensuring a solid foundation.</p>
+                        </div>
+                    </div>
+                    <!-- Project 2: Driveway -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <img src="photos/IMG_3419.JPG" alt="Newly installed gravel driveway with excellent drainage." class="w-full h-64 object-cover">
+                        <div class="p-5">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Durable Gravel Driveway</h3>
+                            <p class="text-gray-700 text-sm">Long-lasting driveway construction designed for heavy use and proper water runoff.</p>
+                        </div>
+                    </div>
+                    <!-- Project 3: Excavation -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <img src="photos/IMG_7260.JPG" alt="Excavation site for a commercial building foundation." class="w-full h-64 object-cover">
+                        <div class="p-5">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Precision Excavation</h3>
+                            <p class="text-gray-700 text-sm">Accurate earthmoving for foundation preparation and utility trenching.</p>
+                        </div>
+                    </div>
+                    <!-- Project 4: Land Clearing Before -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <img src="photos/IMG_4519.JPG" alt="Before land clearing: dense brush and trees on a property." class="w-full h-64 object-cover">
+                        <div class="p-5">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Land Clearing: Before</h3>
+                            <p class="text-gray-700 text-sm">See the initial state of a property before our land clearing services began.</p>
+                        </div>
+                    </div>
+                    <!-- Project 5: Land Clearing After -->
+                    <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <img src="photos/IMG_4518.JPG" alt="After land clearing: property cleared and ready for development." class="w-full h-64 object-cover">
+                        <div class="p-5">
+                            <h3 class="text-xl font-semibold text-gray-800 mb-2">Land Clearing: After</h3>
+                            <p class="text-gray-700 text-sm">The transformed property, cleared and prepared for its next phase of development.</p>
+                        </div>
+                    </div>
+                    <!-- Add more project placeholders as needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action / Contact Section -->
+        <section id="contact" class="bg-red-900 text-white py-16 md:py-24 text-center">
+            <div class="container mx-auto p-4 max-w-3xl">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                    Ready to Start Your Project?
+                </h2>
+                <p class="text-lg md:text-xl mb-8">
+                    Contact Mike Gonzales directly for personalized service and a free, no-obligation estimate. We're here to provide tailored sand and gravel solutions for your needs.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
+                    <a href="tel:+15551234567" class="bg-stone-400 hover:bg-stone-500 text-gray-900 font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                        Call Mike: (555) 123-4567
+                    </a>
+                    <a href="mailto:info@yourbusiness.com" class="bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105 shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        Email Us
+                    </a>
+                </div>
+                <p class="mt-8 text-sm text-red-200">
+                    Proudly serving the Texas A&M and Brazos Valley community.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-400 py-8 text-center">
+        <div class="container mx-auto p-4">
+            <p>&copy; <span id="current-year"></span> Mike Gonzales Sand & Gravel. All rights reserved.</p>
+            <p class="mt-2 text-sm">Aggie Owned & Operated.</p>
+        </div>
+    </footer>
+
     <script>
-        // This script runs after the HTML is loaded.
-        // It's a good place for interactive elements.
-        console.log("Welcome to your dad's sand and gravel website!");
+        // Set the current year in the footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
 
-        // Example: Add a simple click event to the button
-        document.querySelector('button').addEventListener('click', function() {
-            // In a real app, this might open a contact form or navigate to another page.
-            alert("Quote button clicked! (This is a placeholder action)");
-        });
+        // Simple script for demonstration or future interactivity
+        console.log("Mike Gonzales Sand & Gravel website loaded.");
     </script>
 </body>
 </html>
